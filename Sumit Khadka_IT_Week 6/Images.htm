@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Layout</title>
+    <style>
+        .resized {
+            width: 100px;
+            height: 100px;
+        }
+        .aligned-left {
+            float: left;
+            margin-right: 20px;
+        }
+        .spaced {
+            margin: 50px;
+        }
+    </style>
+</head>
+<body>
+    <h1>
+        Image Layout
+    </h1>
+    <img src="image1.jpg" alt="Image 1" border= 5px solid black>
+    <p>
+        This image has a 5px border.
+    </p>
+        <a href="image2.jpg">
+            <img src="image2.jpg" alt="Image 2" class="resized">
+        </a>
+        <p>Click on this resized image (100x100) to open the original image.</p>
+
+        <img src="image3.jpg" alt="Image 3" class="aligned-left">
+        <p class="text">This image is aligned to the left. The text wraps around the image.</p>
+
+        <img src="image4.png" alt="Image 4" class="spaced">
+        <p>This image has 50px space horizontally and vertically.</p>
+  
+</body>
+</html>
